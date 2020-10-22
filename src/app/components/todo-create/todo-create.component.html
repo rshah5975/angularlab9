@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="block">
+        <div class="heading">
+            <h2> Create</h2>
+        </div>
+        <div class="create">
+            <input type="text" id="id" placeholder="Task ID" [(ngModel)] = "id"><br>
+            <input type="text" id="title" placeholder="Task Title" [(ngModel)] = "title"><br>
+            <input type="text" id="details" placeholder="Task Details" [(ngModel)] = "details"><br>
+            <button type="submit" (click)="addTodo()">Add</button>
+        </div>
+    </div>
+</div>

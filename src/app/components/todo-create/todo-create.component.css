@@ -1,0 +1,24 @@
+.create {
+    text-align: center;
+}
+input[type="text"] {
+    font-size: 1.5em;
+    margin-top: -2px; 
+}
+#id {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #bac;
+}
+#title {
+    border-radius: 0px;
+    color: aqua;
+}
+#details {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: blueviolet;
+}
+button {
+    margin-top: 10px;
+}
